@@ -1,0 +1,5 @@
+@include('header.header')
+@include('inc.navbar_vendor')
+@include('inc.message')
+@yield('content')
+@include('footer.footer')
